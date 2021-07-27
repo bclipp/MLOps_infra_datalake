@@ -24,6 +24,5 @@ publish:
     - apt-get update
     - apt-get install -y  python3 python3-pip
     - pip3 install databricks-cli --upgrade
-    #- echo '{}' > ~/.databricks-connect
   script:
-    - 
+    - ./setup_datalake.sh
