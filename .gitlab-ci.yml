@@ -3,13 +3,7 @@ image: "python:3.7"
 stages:
     - deploy
 
-
-
-
-
 publish:
-  only:
-    - main
   stage: deploy
   image: 
     name: ubuntu
